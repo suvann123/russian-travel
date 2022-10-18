@@ -6,17 +6,13 @@
   font-weight: 400;
   color: #FFFFFF;
   text-decoration: none;
+  font-size: 16px;
+  line-height: 1.12;
 }
 
 .footer__link:hover {
   transition: linear;
   opacity: 0.5;
-}
-@media all and (max-width: 1280px) {
-  .footer__link {
-    font-size: 16px;
-    line-height: 1.12;
-  }
 }
 
 @media all and (max-width: 767px) {

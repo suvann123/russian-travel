@@ -1,60 +1,19 @@
 .cover {
   width: 100%;
-  background-image: url(../../images/__background.jpg);
-  background-size: cover;
-  background-position: center;
-  z-index: 0;
-  object-fit: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  padding: 0;
-
+  margin: 10px auto 92px auto;
 }
-
-.cover::before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: linear 0.2s;
-  background-color: #2A2C2F;
-  opacity: 0.3;
-  z-index: 1;
-}
-
-.cover:hover::before {
-  opacity: 0.8;
-}
-@media screen and (max-width: 1280px) {
+@media (max-width: 1024px) {
   .cover {
-    min-height: 740px;
-    margin: 12px auto 92px auto;
-
+    margin: 12px auto 88px auto;
   }
 }
-@media screen and (max-width: 1024px) {
+@media (max-width: 768px) {
   .cover {
-    min-height: 640px;
+    margin: 17px auto 88px auto;
   }
 }
-@media all and (max-width: 768px) {
+@media (max-width: 320px) {
   .cover {
-    min-height: 480px;
-    margin: 7px auto 88px auto;
-  }
-}
-
-@media all and (max-width: 320px) {
-  .cover {
-    min-height: 200px;
     margin: 16px auto 64px auto;
   }
 }
-
-
-

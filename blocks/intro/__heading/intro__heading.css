@@ -8,13 +8,6 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1280px) {
-  .intro__heading {
-    font-size: 54px;
-    line-height: 1.07;
-  }
-}
-
 @media all and (max-width: 767px) {
   .intro__heading {
     font-size: 32px;

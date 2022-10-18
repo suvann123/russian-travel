@@ -8,15 +8,12 @@
   color: #FFFFFF;
   z-index: 20;
   align-self: center;
-}
-@media screen and (max-width: 1280px) {
-  .cover__subheading {
-    margin: 32px auto 0 auto;
+  margin: 32px auto 0 auto;
     font-size: 18px;
     line-height: 1.22;
-  }
 }
-@media all and (max-width: 320px) {
+
+@media all and (max-width: 767px) {
   .cover__subheading {
     margin: 16px auto 0 auto;
     font-size: 14px;

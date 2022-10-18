@@ -5,19 +5,14 @@
   text-align: center;
   color: #FFFFFF;
   max-width: 720px;
-}
-
-@media (max-width: 1280px) {
-  .lead__heading {
-    margin: 56px auto 0 auto;
-    font-size: 96px;
-    line-height: 1.04;
-  }
+  margin: 0 auto 0 auto;
+  font-size: 96px;
+  line-height: 1.04;
 }
 
 @media (max-width: 1024px) {
   .lead__heading {
-    margin: 48px auto 0 auto;
+    margin: 0 auto 0 auto;
   }
 }
 
