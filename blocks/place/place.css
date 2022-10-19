@@ -13,7 +13,6 @@
 @media (max-width: 1024px) {
   .place {
     grid-template-columns: 440px 1fr;
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
     margin: 0 48px 80px 48px;
     column-gap: 32px;
     max-width: 928px;
@@ -23,14 +22,13 @@
 @media (max-width: 768px) {
   .place {
     grid-template-columns: 340px 1fr;
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
     margin: 0 24px 73px 24px;
     column-gap: 28px;
     max-width: 720px;
   }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 620px) {
   .place {
     margin: 0 0 50px 0;
     grid-template-columns: 1fr;

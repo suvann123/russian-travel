@@ -4,7 +4,6 @@
   background-size: cover;
   background-position: center;
   z-index: 0;
-  object-fit: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,6 +11,8 @@
   padding: 0;
   min-height: 740px;
   margin: 0;
+  object-fit: contain;
+  object-position: center;
 }
 
 .cover__image::before {

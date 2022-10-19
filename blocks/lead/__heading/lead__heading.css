@@ -10,12 +10,6 @@
   line-height: 1.04;
 }
 
-@media (max-width: 1024px) {
-  .lead__heading {
-    margin: 0 auto 0 auto;
-  }
-}
-
 @media (max-width: 767px) {
   .lead__heading {
     font-size: 40px;

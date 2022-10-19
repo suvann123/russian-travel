@@ -1,6 +1,5 @@
 .place__text-paragraph {
   display: flex;
-  display: inline-block;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -11,11 +10,16 @@
 }
 
 .place__text-paragraph:last-child {
-  margin: 0;
+  margin-bottom: 0;
 }
 
 @media (max-width: 1023px) {
   .place__text-paragraph {
     font-size: 16px;
+  }
+}
+@media (max-width: 1023px) {
+  .place__text-paragraph {
+    margin: 0 16px 25px 16px;
   }
 }
